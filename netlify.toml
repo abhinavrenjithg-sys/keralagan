@@ -1,3 +1,6 @@
+# The website is static HTML in docs/. Using docs/ as the base directory stops
+# Netlify from installing the Python requirements (PyTorch etc.) on every deploy.
 [build]
-  publish = "docs"
+  base = "docs"
+  publish = "."
   command = ""
