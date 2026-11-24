@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# big / generated
+data/*/
+raw/
+checkpoints/
+samples/
+logs/
+results/
+space/
+*.pt
+!weights/.gitkeep
+
+# keep the data docs
+!data/README.md
+!data/sources.csv

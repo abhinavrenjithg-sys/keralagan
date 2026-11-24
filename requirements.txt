@@ -1,0 +1,10 @@
+torch>=2.1
+torchvision>=0.16
+pillow>=10.0
+numpy>=1.24
+# demo app
+gradio>=4.0
+# evaluation
+pytorch-fid>=0.3
+# tests
+pytest>=7.0
