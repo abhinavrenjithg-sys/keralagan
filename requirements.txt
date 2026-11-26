@@ -2,6 +2,7 @@ torch>=2.1
 torchvision>=0.16
 pillow>=10.0
 numpy>=1.24
+requests>=2.28
 # demo app
 gradio>=4.0
 # evaluation
